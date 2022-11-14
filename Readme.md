@@ -3,7 +3,7 @@
 
 This repository contains the app without webhook for the [Build a Shopify app with Node and React](https://developers.shopify.com/tutorials/build-a-shopify-app-with-node-and-react) tutorial.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fbluebeel%2Fnextjs-shopify&env=NEXT_PUBLIC_HOST,HOST,SHOPIFY_API_SECRET,SHOPIFY_API_KEY&envDescription=Your%20shopify%20API%20Key%20%26%20Secret%20and%20the%20public%20url%20of%20your%20vercel%20deployement%20or%20domain%20name%20of%20your%20app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2Fjayesh-patel%2Fnextjs-shopify&env=NEXT_PUBLIC_HOST,HOST,SHOPIFY_API_SECRET,SHOPIFY_API_KEY&envDescription=Your%20shopify%20API%20Key%20%26%20Secret%20and%20the%20public%20url%20of%20your%20vercel%20deployement%20or%20domain%20name%20of%20your%20app)
 
 ## Using demo app
 
