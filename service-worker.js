@@ -12,10 +12,10 @@ clientsClaim();
 //const WB_MANIFEST = self.__WB_MANIFEST;
 const WB_MANIFEST = [];
 // Precache fallback route and image
-WB_MANIFEST.push({
+/*WB_MANIFEST.push({
   url: '/fallback',
   revision: '1234567890',
-});
+});*/
 WB_MANIFEST.push({
     url: '/',
     revision: '1234567890',
