@@ -1,4 +1,9 @@
-module.exports = {
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  swSrc: 'service-worker.js',
+});
+
+module.exports = withPWA({
   env: {
     API_KEY: process.env.SHOPIFY_API_KEY,
     HOST: process.env.HOST,
@@ -15,4 +20,4 @@ module.exports = {
       },
     ];
   },
-};
+});
