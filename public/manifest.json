@@ -6,7 +6,7 @@
     "theme_color": "#ffffff",
     "background_color": "#00008a",
     "start_url": "/",
-    "scope": "/",
+    "scope": "\/a\/pwa\/",
     "icons": [
       {
         "src": "\/\/cdn.shopify.com\/s\/files\/1\/0195\/9342\/t\/126\/assets\/logo-96x96.png",
