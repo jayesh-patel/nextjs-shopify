@@ -5,7 +5,7 @@
     "orientation": "portrait-primary",
     "theme_color": "#ffffff",
     "background_color": "#00008a",
-    "start_url": "/",
+    "start_url": "\/a\/pwa\/",
     "scope": "\/a\/pwa\/",
     "icons": [
       {
