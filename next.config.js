@@ -3,10 +3,30 @@ const withPWA = require('next-pwa')({
   swSrc: 'service-worker.js',
 });
 
+const securityHeaders = [
+  {
+    key: 'Service-Worker-Allowed',
+    value: '/'
+  },
+  {
+    key:'Content-Type',
+    value:'application/javascript'
+  }
+];
+
 module.exports = withPWA({
   env: {
     API_KEY: process.env.SHOPIFY_API_KEY,
     HOST: process.env.HOST,
+  },
+
+  async headers() {
+    return [
+      {
+        source: '/sw\.js',
+        headers: securityHeaders,
+      },
+    ]
   },
 
   async redirects() {
